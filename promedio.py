@@ -1,9 +1,12 @@
 suma = 0
 cantidad = 4
 
-for i in range(cantidad):
+i = 0
+
+while i < cantidad :
 	num = float(input("Escribe un número: "))
 	suma += num
+	i += 1
 
 print(f"El promedio es: {suma / cantidad}")
 
